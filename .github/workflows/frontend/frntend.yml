@@ -1,11 +1,11 @@
 name: frntend 
 on:
   push:
-    branches: [main]
+    branches: [submain]
     paths:
       - 'frontend/**'
   pull_request: 
-    branches: [main]
+    branches: [submain]
     paths:
       - 'frontend/**'
   workflow_dispatch:
