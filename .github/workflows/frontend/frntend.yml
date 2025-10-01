@@ -1,3 +1,4 @@
+name: frntend 
 on:
   push:
     branches: [main]
