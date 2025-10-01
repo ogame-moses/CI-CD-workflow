@@ -10,9 +10,9 @@ on:
       - 'frontend/**'
   workflow_dispatch:
 
-  env:
-    REGISTRY: docker.io
-    IMAGE_NAME: kh-prac-frontend
+ # env:
+  #  REGISTRY: docker.io
+   # IMAGE_NAME: kh-prac-frontend
   # DOCKERHUB_USERNAME: env.DOCKERHUB_USERNAME
   # DOCKERHUB_TOKEN: env.DOCKERHUB_TOKEN
 jobs:
